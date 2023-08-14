@@ -1,0 +1,7 @@
+Bir siteyi internete yükelemk için File Zila uygulamasını bilgisayara yüklemeliyiz
+Yüklememiz için gerekli olan bilgiler şu şekilde
+1-sunucu
+2-kapı numarası(port) değeri 21 olmalıdır
+3-kullanıcı adı
+4-parola
+Değerlerini hostig aldığımız firmadan alarak bu bilgileri yükleyebiliriz

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- {% comment %} form nasıl oluşturulur {% endcomment %} -->
+    <h1>Lütfen Bir değer seçiniz</h1>
+    <form name='kayit' action="kayit.py" method='get'>
+        <!--action bize aldığımız değerlerin hangi dosyaya gönedrileceğini söyler -->
+        <h1>Lütfen bir isim değeri giriniz</h1>
+        <label for="">
+            isim
+            <input type="text" value="dsfasd" id="İsimCss" size="20" maxlength="30" required>
+
+        </label>
+
+        <!-- required değeri zorunlu alana anlamına gelir -->
+        <input type="submit" value="Gönder">
+        <input type="reset" value="Sil">
+        <!-- rest dersek bütün inputların değerlerini sıfırlar -->
+    </form>
+</body>
+
+</html>

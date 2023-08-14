@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            border-style: solid;
+            border-color: red;
+            border-width:5px;
+            width: 100px;
+            height: 100px;
+            margin: 15px;
+            float: left;
+            overflow: hidden;
+            /* Kutuların ilk önce sola yaslanması gerekli. Bu durumda alttaki kutular en baştaki varsayılan değeri alarak solunu geçerler */
+
+            /* float ile nesneleri hizalama sağlar */
+        }
+        h1{
+            margin:auto
+        }
+    </style>
+</head>
+<body>
+    <div id="kutu1"><h1>İsim</h1></div>
+    <div id="kutu2"><h1>Soyisim</h1></div>
+    <div id="kutu3"><h1>Numara</h1></div>
+</body>
+</html>

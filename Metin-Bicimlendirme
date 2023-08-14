@@ -1,0 +1,7 @@
+Üst simge eklemek istiyorsak bu etiketleri kullanmamız gerekli<sup></sup>
+
+Alt simge eklemek istiyorsak <sub></sub> kullanmamız gerekli
+
+<pre></pre> etiketi html dosyasında nasıl gözüküyorsa tarayıcıda o şekşlde gözükür
+
+tek bir kelimeye css eklemek istiyorsak <span><p>Metin</p></span> etiketini kullanmalıyız
