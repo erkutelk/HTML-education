@@ -24,17 +24,26 @@ header{
     background-color: rgb(255, 255, 255);
     width: 100%;
     height: 60px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
+    font-family: 'Poppins', sans-serif;
+ 
     
 }
 
 header li{
     float: left;
-    margin: 25px;
+    margin: 20px;
     list-style: none;
     color: rgb(0, 0, 0);
 }
+
+header li:hover{
+    text-decoration: underline;
+    color: rgb(95, 0, 210);
+    
+}
+
+
 
 
 article{
@@ -47,16 +56,17 @@ article{
 }
 
 form{
-    position: relative;
+    position: absolute;
+    /* Yazının kutunun dışına çıkmasının sebebi position: relative olması*/
     top: 100px;
     left: 70px;
 }
 
 
-label{
-    font-size: 25px;
-    font-family: 'Hind Madurai', sans-serif;
-    font-family: 'Roboto', sans-serif;
+form label{
+    font-size: 20px;
+
+    font-family: 'Poppins', sans-serif;
 }
 #button{
     margin: 50px 0px;
