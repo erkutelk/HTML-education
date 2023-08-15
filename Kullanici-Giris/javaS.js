@@ -1,3 +1,26 @@
+window.addEventListener('load', function() {
+    if (!window.Notification) return;
+});
+
+const sendNotification=(permission)=>{
+
+    let Notification_=new Notification('yeni bildirim',{
+        body:'Hoşgeldiniz',
+        icon:'LinkBicimlendirmesi.png'
+    })
+    console.log(Notification_)
+
+}
+
+const buttons = document.querySelector('#button');
+buttons.addEventListener('click', () => {
+    alert('Buttona basıldı')
+    Notification
+        .requestPermission()
+        .then(sendNotification);
+        //Bildirim gönder buttonu
+});
+
 var mailTb = document.querySelector('#mailTb');
 var sifreTb = document.querySelector('#sifreTb');
 document.querySelector('#button').addEventListener('click', button);
