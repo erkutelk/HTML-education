@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notify.js Örneği</title>
+    <script src="Kullanici-Giris/ajax.googleapis.com_ajax_libs_jquery_3.6.4_jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/notify/0.4.2/notify.min.js"></script>
+</head>
+<body>
+    <button id="showNotification">Bildirim Göster</button>
+
+    <script>
+        $(document).ready(function() {
+            $("#showNotification").click(function() {
+                $.notify("Butona basıldı!", { position: "right"});            });
+        });
+    </script>
+</body>
+</html>
